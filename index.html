@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Sleuth Kit: Report by Arpit</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <main class="table" id="customers_table">
+        <section class="table__header">
+            <div>
+            <h1>Recoverable Files from The Sleuth Kit</h1>
+            <h4>by Arpit</h4></div>
+            <div class="input-group">
+                <input type="search" placeholder="Search Files...">
+                <img src="images/search.png" alt="">
+            </div>
+            <div class="export__file">
+                <label for="export-file" class="export__file-btn" title="Export File"></label>
+                <input type="checkbox" id="export-file">
+                <div class="export__file-options">
+                    <label>Export As &nbsp; &#10140;</label>
+                    <label for="export-file" id="toPDF">PDF <img src="images/pdf.png" alt=""></label>
+                    <label for="export-file" id="toJSON">JSON <img src="images/json.png" alt=""></label>
+                    <label for="export-file" id="toCSV">CSV <img src="images/csv.png" alt=""></label>
+                    <label for="export-file" id="toEXCEL">EXCEL <img src="images/excel.png" alt=""></label>
+                </div>
+            </div>
+        </section>
+        <section class="table__body">
+            <table>
+                <thead>
+                    <tr>
+                        <th> Inode No. <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> File Name <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Location <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Deletion Date <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Recovery Status <span class="icon-arrow">&UpArrow;</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> 654084 </td>
+                        <td> <img src="images/doc.png" alt="">Arpit_Resume.docx</td>
+                        <td> Arpit/ </td>
+                        <td> 17 Dec, 2022 </td>
+                        <td>
+                            <p class="status shipped">Good</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 654085 </td>
+                        <td><img src="images/pdf.png" alt="">Fossx_Report_Final by Arpit.pdf</td>
+                        <td> fossx/</td>
+                        <td> 27 Aug, 2023 </td>
+                        <td>
+                            <p class="status delivered">Excellent</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 654085 </td>
+                        <td><img src="images/ppt.png" alt="">Final Round Fossx.pptx</td>
+                        <td> Arpit/Fossx/  </td>
+                        <td> 14 Mar, 2023 </td>
+                        <td>
+                            <p class="status delivered">Excellent</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 654086 </td>
+                        <td><img src="images/txt.png" alt="">passwords.txt</td>
+                        <td> Secrets/passwords/ </td>
+                        <td> 25 May, 2023 </td>
+                        <td>
+                            <p class="status cancelled">Bad</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 678174 </td>
+                        <td><img src="images/excel.png" alt="">grades.xlsx</td>
+                        <td> College/ </td>
+                        <td> 23 Apr, 2023 </td>
+                        <td>
+                            <p class="status pending">Moderate</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 678175 </td>
+                        <td><img src="images/java.png" alt="">main.java</td>
+                        <td> Projects/java </td>
+                        <td> 23 Apr, 2023 </td>
+                        <td>
+                            <p class="status cancelled">Bad</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 679524</td>
+                        <td><img src="images/pdf.png" alt="">C_lab report.pdf</td>
+                        <td> College/CSE </td>
+                        <td> 20 May, 2023 </td>
+                        <td>
+                            <p class="status delivered">Excellent</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 679525 </td>
+                        <td><img src="images/image.png" alt="">photo.png</td>
+                        <td> / </td>
+                        <td> 30 Feb, 2023 </td>
+                        <td>
+                            <p class="status pending">Moderate</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 680410 </td>
+                        <td><img src="images/image.png" alt="">Screenshot_71.jpg</td>
+                        <td> Screenshots/ </td>
+                        <td> 22 Dec, 2023 </td>
+                        <td>
+                            <p class="status cancelled">Bad</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 680411 </td>
+                        <td><img src="images/ppt.png" alt="">hackathon.pptx</td>
+                        <td> ar/ </td>
+                        <td> 25 Dec, 2023 </td>
+                        <td>
+                            <p class="status shipped">Good</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 1046531</td>
+                        <td><img src="images/apk.png" alt="">e_lib.apk</td>
+                        <td> apps/ </td>
+                        <td> 01 Jan, 2024 </td>
+                        <td>
+                            <p class="status delivered">Excellent</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 784897 </td>
+                        <td><img src="images/apk.png" alt="">harman_ai.apk</td>
+                        <td> apps/ </td>
+                        <td> 24 Jan, 2024 </td>
+                        <td>
+                            <p class="status shipped">Good</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 1577969</td>
+                        <td><img src="images/html.png" alt="">index.html</td>
+                        <td> Projects/web </td>
+                        <td> 09 Feb, 2024 </td>
+                        <td>
+                            <p class="status cancelled">Bad</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
